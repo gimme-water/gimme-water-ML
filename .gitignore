@@ -14,6 +14,7 @@ wheels/
 #dataset
 **/.ipynb_checkpoints/*
 biophysics_database_palm/
+dataset/*
 
 #os
 .DS_store
