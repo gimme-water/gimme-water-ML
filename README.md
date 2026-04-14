@@ -1,4 +1,4 @@
-# README
+# gimme-water-ML
 
 ```bash
 jupyter lab

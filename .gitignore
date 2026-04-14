@@ -8,13 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
-
 .vscode/
 
 #dataset
 **/.ipynb_checkpoints/*
 biophysics_database_palm/
-dataset/*
+dataset/train/*
+dataset/validate/*
 
 #os
 .DS_store
