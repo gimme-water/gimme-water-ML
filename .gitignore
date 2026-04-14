@@ -15,6 +15,7 @@ wheels/
 biophysics_database_palm/
 dataset/train/*
 dataset/validate/*
+dataset_labels/*
 
 #os
-.DS_store
+.DS_storez
