@@ -1,0 +1,36 @@
+@startuml usecase
+left to right direction
+
+actor "사용자(수확)" as UserF
+actor "소셜로그인제공" as SCL
+
+rectangle "plantagochi" {
+    usecase "로그인" as UCL
+    usecase "화분등록" as UC1
+    usecase "화분등록튜토리얼" as UC1T
+    usecase "화분관리" as UC2
+    usecase "심은날짜입력" as UC3
+    usecase "화분조회" as UC4
+    usecase "화분스테이지조회" as UC41
+    usecase "화분과대화하기" as UC42
+    usecase "화분아바타조회" as UC43
+    usecase "화분평균X%조회" as UC44
+    usecase "사용자미션조회" as UC5
+    usecase "사용자뱃지조회" as UC6
+}
+
+UserF -- UCL
+UserF -- UC1
+UserF -- UC1T
+UserF -- UC2
+UserF -- UC3
+UserF -- UC4
+UC4 <.. UC41: <<extend>>
+UC4 <.. UC42: <<extend>>
+UC4 <.. UC43: <<extend>>
+UC4 <.. UC44: <<extend>>
+UserF -- UC5
+UserF -- UC6
+UCL <-up- SCL
+
+@enduml

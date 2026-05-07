@@ -15,7 +15,17 @@ wheels/
 biophysics_database_palm/
 dataset/train/*
 dataset/validate/*
+dataset/collector/*
 dataset_labels/*
+photos/*
+
 
 #os
-.DS_storez
+.DS_Store
+
+#claude
+.claude
+
+#RProj
+.RProj.user/
+.RHistory
