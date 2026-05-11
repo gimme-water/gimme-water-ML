@@ -3,7 +3,7 @@ name = "graduate"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13, <3.14"
 dependencies = [
     "jupyterlab>=4.5.6",
     "matplotlib>=3.10.8",
@@ -18,5 +18,5 @@ dependencies = [
     "ipywidgets>=8.1.0",
     "ipympl>=0.10.0",
     "opencv-python>=4.10.0",
-    "sam-2>=1.0",
+    "sam-2 @ git+https://github.com/facebookresearch/sam2.git",
 ]
